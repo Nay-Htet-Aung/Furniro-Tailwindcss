@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/output.css">
+    <title>Single Product</title>
+</head>
+
+<body class="font-poppins">
+    <!-- top navbar section -->
+    <header class="fixed top-0 w-full z-[100]">
+        <div class="2xl:container mx-auto">
+            <!-- flex control -->
+            <div
+                class="md:flex sm:flex-wrap sm:flex-col md:flex-row md:justify-between sm:justify-items-center px-5 bg-[#fff]">
+
+                <div>
+                    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="../index.html">
+                        <img src="../img/home/Meubel House_Logos-05.png" alt="Furniro">
+                        <span class="text-3xl font-bold mt-2">Furniro</span>
+                    </a>
+                </div>
+
+                <nav class="md:space-x-14 space-x-10 font-bold p-4">
+                    <a class="hover:text-gray-400" href="../index.html">Home</a>
+                    <a class="hover:text-gray-400" href="../shop.html">Shop</a>
+                    <a class="hover:text-gray-400" href="">About</a>
+                    <a class="hover:text-gray-400" href="">Contact</a>
+                </nav>
+
+                <div class="md:space-x-10 space-x-7 text-lg  p-3">
+                    <i class="fa-solid fa-user hover:text-gray-400"></i>
+                    <i class="fa-solid fa-magnifying-glass hover:text-gray-400"></i>
+                    <i class="fa-regular fa-heart hover:text-gray-400"></i>
+                    <i class="fa-solid fa-cart-shopping hover:text-gray-400"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="max-w-[1440px] mx-auto bg-[#F9F1E7] mt-[56px]">
+        <div class="space-x-5 w-full py-8 ps-[99px]">
+            <a class="text-gray-500" href="../index.html">Home</a>
+            <span class="text-xl">&gt;</span>
+            <a class="text-gray-500" href="../shop.html">Shop</a>
+            <span class="text-xl">&gt;</span>
+            <div class="inline-block px-10 border-l border-gray-600 py-1">Asgaard sofa</div>
+        </div>
+    </section>
+
+    <!-- Single Product Card section -->
+    <section class="max-w-[1440px] mx-auto">
+        <div class="mx-[99px] mt-[35px] mb-[55px] flex gap-[82px]">
+            <div class="flex w-[48%]">
+                <div class="w-[13%] space-y-16">
+                    <img src="../img/single-product/Outdoor_sofa_set_2.png" alt="">
+                    <img src="../img/single-product/Outdoor_sofa_set_2_1.png" alt="">
+                    <img src="../img/single-product/Outdoor_sofa_set_2.png" alt="">
+                    <img src="../img/single-product/Outdoor_sofa_set_2_1.png" alt="">
+                </div>
+                <div class="w-[87%]">
+                    <img class="" src="../img/single-product/Asgaard_sofa_3.png" alt="">
+                </div>
+            </div>
+            <div class="w-[52%]">
+                <h3 class="text-[42px]">Asgaard sofa</h3>
+                <span class="text-[24px] text-gray-500">Rs. 250,000.00</span>
+                <p class="text-[13px] my-5">Setting the bar as one of the loudest speakers in its class, the Kilburn is
+                    a
+                    compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and
+                    extended
+                    highs for a sound.
+                </p>
+
+                <!-- size-radio-group -->
+                <fieldset class="flex space-y-2 mb-5">
+                    <legend class="text-gray-500 text-[14px]">Size</legend>
+                    <div class="flex gap-x-[22px] p-2">
+                        <label class="size-radio-group">
+                            <input class="hidden" type="radio" name="size">
+                            <span class="cursor-pointer px-3 py-1 text-[13px]">L</span>
+                        </label>
+                        <label class="size-radio-group">
+                            <input class="hidden" type="radio" name="size">
+                            <span class="cursor-pointer px-3 py-1 text-[13px]">XL</span>
+                        </label>
+                        <label class="size-radio-group">
+                            <input class="hidden" type="radio" name="size">
+                            <span class="cursor-pointer px-3 py-1 text-[13px]">XS</span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <!-- color-radio-group -->
+                <fieldset class="flex space-y-2 mb-5">
+                    <legend class="text-gray-500 text-[14px]">Color</legend>
+                    <div class="flex gap-x-8 p-2">
+                        <label class="color-radio-group">
+                            <input class="hidden" type="radio" name="colorRadio">
+                            <span class="cursor-pointer rounded-full px-3 bg-[#816DFA]"></span>
+                        </label>
+                        <label class="color-radio-group">
+                            <input class="hidden" type="radio" name="colorRadio">
+                            <span class="cursor-pointer rounded-full px-3 bg-[#000000]"></span>
+                        </label>
+                        <label class="color-radio-group">
+                            <input class="hidden" type="radio" name="colorRadio">
+                            <span class="cursor-pointer rounded-full px-3 bg-[#B88E2F]"></span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <div class="flex gap-[15px]">
+                    <div
+                        class="flex justify-between py-[20px] px-[14px] text-base gap-[35px] border border-[#9F9F9F] rounded-lg">
+                        <button>-</button>
+                        <div class="items-center inline-flex">1</div>
+                        <button>+</button>
+                    </div>
+                    <button class="px-[46px] py-[16px] text-[20px] border border-black rounded-xl">Add To Cart</button>
+                    <button class="px-[46px] py-[16px] text-[20px] border border-black rounded-xl">+ Compare</button>
+                </div>
+
+                <div class="hr-line mt-[60px] mb-[41px]"></div>
+
+                <table class="text-[#9F9F9F] border-separate border-spacing-[12px]">
+                    <tr>
+                        <td>SKU</td>
+                        <td>:</td>
+                        <td>SS001</td>
+                    </tr>
+                    <tr>
+                        <td>Category</td>
+                        <td>:</td>
+                        <td>Sofas</td>
+                    </tr>
+                    <tr>
+                        <td>Tags</td>
+                        <td>:</td>
+                        <td>Sofa,Chair,Home,Shop</td>
+                    </tr>
+                    <tr>
+                        <td>Share</td>
+                        <td>:</td>
+                        <td class="text-black">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            <i class="fa-brands fa-square-x-twitter"></i>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-[1440px] mx-auto mb-[65px]">
+        <div class="px-[200px] space-y-[35px]">
+            <div class="flex justify-center text-2xl text-[#9F9F9F] gap-[50px] font-semibold">
+                <a href="" class="text-black">Description</a>
+                <a href="">Additional Information</a>
+                <a href="">Reviews [<span>5</span>]</a>
+            </div>
+            <div class="text-[#9F9F9F] text-justify">
+                Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes
+                the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.
+            </div>
+            <div class="text-[#9F9F9F] text-justify">
+                Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting
+                the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a
+                well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate
+                and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences
+                while the guitar-influenced leather strap enables easy and stylish travel.
+            </div>
+        </div>
+        <div class="flex justify-between -mt-[100px] overflow-hidden">
+            <img src="../img/single-product/Cloud_sofa_three_seater_+_ottoman_2_1.png" alt="" class="w-[50%]">
+            <img src="../img/single-product/Cloud_sofa_three_seater_+_ottoman_1_1.png" alt="" class="w-[50%]">
+        </div>
+    </section>
+
+    <!-- Product cards section -->
+    <section class="sm:container mx-auto my-16">
+        <!-- header -->
+        <div class="text-center mb-5">
+            <h3 class="text-4xl font-semibold">Related Products</h3>
+        </div>
+        <!-- padding -->
+        <div class="lg:p-[60px] md:p-[80px] sm:p-[60px] p-10 space-y-5">
+            <!-- grid control -->
+            <div class="grid lg:grid-cols-4 md:grid-cols-2 md:grid-flow-row gap-5">
+                <!-- card body -->
+                <div class="relative bg-[#fff3e3] border overflow-hidden">
+                    <span
+                        class="bg-orange-500 rounded-full py-3 px-[6px] text-white absolute right-5 top-8 text-xs">-30%</span>
+                    <img class="w-full" src="../img/home/our-products/image 1.png" alt="">
+                    <div class="p-5 space-y-3">
+                        <div class="text-xl font-bold">Syltherine</div>
+                        <div class="text-gray-600">Stylish cafe chair</div>
+                        <div>
+                            <span class="w-full text-gray-500 text-xs line-through">Rp 3,500,000</span><br>
+                            Rp 2,500,000
+                        </div>
+                    </div>
+                    <!-- hover:card body -->
+                    <div class="absolute top-0 block w-full">
+                        <div
+                            class="z-30 h-[100vh] relative bg-opacity-70 bg-black opacity-0 hover:opacity-100 duration-200">
+                            <div class="absolute top-[180px] z-30 w-full">
+                                <button
+                                    class="flex mx-auto duration-200 bg-white hover:bg-[#b98e2f] hover:text-white outline outline-1 outline-[#b98e2f] text-[#b98e2f] py-2 px-10">Add to cart</button>
+                                    
+                                <div class="flex mx-auto justify-between text-white px-5 mt-5 text-sm">
+                                    <a href=""><i class="fa-solid fa-share-nodes me-1"></i>Share</a>
+                                    <a href=""><i class="fa-solid fa-arrow-right-arrow-left me-1"></i>Compare</a>
+                                    <a href=""><i class="fa-regular fa-heart me-1"></i>Like</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-[#fff3e3] border overflow-hidden">
+                    <span
+                        class="bg-orange-500 rounded-full py-3 px-[6px] text-white absolute right-5 top-8 text-xs">-30%</span>
+                    <img class="w-full" src="../img/home/our-products/image 1.png" alt="">
+                    <div class="p-5 space-y-3">
+                        <div class="text-xl font-bold">Syltherine</div>
+                        <div class="text-gray-600">Stylish cafe chair</div>
+                        <div>
+                            <span class="w-full text-gray-500 text-xs line-through">Rp 3,500,000</span><br>
+                            Rp 2,500,000
+                        </div>
+                    </div>
+                    <div class="absolute top-0 block w-full">
+                        <div
+                            class="z-30 h-[100vh] relative bg-opacity-70 bg-black opacity-0 hover:opacity-100 duration-200">
+                            <div class="absolute top-[180px] z-30 w-full">
+                                <button
+                                    class="flex mx-auto duration-200 bg-white hover:bg-[#b98e2f] hover:text-white outline outline-1 outline-[#b98e2f] text-[#b98e2f] py-2 px-10">Add
+                                    to cart</button>
+                                <div class="flex mx-auto justify-between text-white px-5 mt-5 text-sm">
+                                    <a href=""><i class="fa-solid fa-share-nodes me-1"></i>Share</a>
+                                    <a href=""><i class="fa-solid fa-arrow-right-arrow-left me-1"></i>Compare</a>
+                                    <a href=""><i class="fa-regular fa-heart me-1"></i>Like</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-[#fff3e3] border overflow-hidden">
+                    <span
+                        class="bg-orange-500 rounded-full py-3 px-[6px] text-white absolute right-5 top-8 text-xs">-30%</span>
+                    <img class="w-full" src="../img/home/our-products/image 1.png" alt="">
+                    <div class="p-5 space-y-3">
+                        <div class="text-xl font-bold">Syltherine</div>
+                        <div class="text-gray-600">Stylish cafe chair</div>
+                        <div>
+                            <span class="w-full text-gray-500 text-xs line-through">Rp 3,500,000</span><br>
+                            Rp 2,500,000
+                        </div>
+                    </div>
+                    <div class="absolute top-0 block w-full">
+                        <div
+                            class="z-30 h-[100vh] relative bg-opacity-70 bg-black opacity-0 hover:opacity-100 duration-200">
+                            <div class="absolute top-[180px] z-30 w-full">
+                                <button
+                                    class="flex mx-auto duration-200 bg-white hover:bg-[#b98e2f] hover:text-white outline outline-1 outline-[#b98e2f] text-[#b98e2f] py-2 px-10">Add
+                                    to cart</button>
+                                <div class="flex mx-auto justify-between text-white px-5 mt-5 text-sm">
+                                    <a href=""><i class="fa-solid fa-share-nodes me-1"></i>Share</a>
+                                    <a href=""><i class="fa-solid fa-arrow-right-arrow-left me-1"></i>Compare</a>
+                                    <a href=""><i class="fa-regular fa-heart me-1"></i>Like</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative bg-[#fff3e3] border overflow-hidden">
+                    <span
+                        class="bg-orange-500 rounded-full py-3 px-[6px] text-white absolute right-5 top-8 text-xs">-30%</span>
+                    <img class="w-full" src="../img/home/our-products/image 1.png" alt="">
+                    <div class="p-5 space-y-3">
+                        <div class="text-xl font-bold">Syltherine</div>
+                        <div class="text-gray-600">Stylish cafe chair</div>
+                        <div>
+                            <span class="w-full text-gray-500 text-xs line-through">Rp 3,500,000</span><br>
+                            Rp 2,500,000
+                        </div>
+                    </div>
+                    <div class="absolute top-0 block w-full">
+                        <div
+                            class="z-30 h-[100vh] relative bg-opacity-70 bg-black opacity-0 hover:opacity-100 duration-200">
+                            <div class="absolute top-[180px] z-30 w-full">
+                                <button
+                                    class="flex mx-auto duration-200 bg-white hover:bg-[#b98e2f] hover:text-white outline outline-1 outline-[#b98e2f] text-[#b98e2f] py-2 px-10">Add
+                                    to cart</button>
+                                <div class="flex mx-auto justify-between text-white px-5 mt-5 text-sm">
+                                    <a href=""><i class="fa-solid fa-share-nodes me-1"></i>Share</a>
+                                    <a href=""><i class="fa-solid fa-arrow-right-arrow-left me-1"></i>Compare</a>
+                                    <a href=""><i class="fa-regular fa-heart me-1"></i>Like</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button
+            class="flex mx-auto duration-200 hover:bg-[#b98e2f] hover:text-white outline outline-1 outline-[#b98e2f] text-[#b98e2f] py-2 px-10">Show
+            More</button>
+    </section>
+
+    <footer class="bg-[#fff3e3] 2xl:container mx-auto">
+        <div
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                <h2 class="text-xl md:mb-7 font-bold">Furniro.</h2>
+                </a>
+                <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pl-16 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-500 tracking-widest text-sm mb-3 md:mb-7">Links</h2>
+                    <nav class="list-none mb-10 md:space-y-7">
+                        <li>
+                            <a class="hover:text-gray-500 cursor-pointer" href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-gray-500 cursor-pointer" href="./shop.html">Shop</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-gray-500 cursor-pointer" href="./about.html">About</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-gray-500 cursor-pointer" href="./contact.html">Contact</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-500 tracking-widest text-sm mb-3 md:mb-7">Help</h2>
+                    <nav class="list-none mb-10 md:space-y-7">
+                        <li>
+                            <a class="hover:text-gray-500 cursor-pointer">Payment Options</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-gray-500 cursor-pointer">Return</a>
+                        </li>
+                        <li>
+                            <a class="hover:text-gray-500 cursor-pointer">Privacy Policies</a>
+                        </li>
+                    </nav>
+                </div>
+                <div class="lg:w-2/4 w-full px-4">
+                    <h2 class="title-font font-medium text-gray-500 tracking-widest text-sm mb-3 md:mb-7">Newsletter
+                    </h2>
+                    <div>
+                        <input class="border-b-2 focus:border-b-0 p-1 text-sm" type="email"
+                            placeholder="Enter Your Email Address">
+                        <button class="duration-200 text-white bg-[#b98e2f] border border-[#b98e2f] hover:bg-white hover:text-[#b98e2f] px-2 py-1 text-xs">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left">© 2023 Furniro. All Right Reverved
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -20,4 +20,23 @@
         scrollbar-width: none;
         /* Firefox */
     }
+
+    /* Size radio group */
+    .size-radio-group input[type="radio"]:checked + span {
+        background-color: #B88E2F;
+        color: white;
+    }
+
+    /* Color radio group */
+    .color-radio-group input[type="radio"]:checked + span {
+        @apply ring ring-offset-1 ring-offset-gray-700
+    }
+
+    /* Horizontal Line */
+    .hr-line {
+        display: block;
+        height: 0;
+        border: 1px solid #D9D9D9;
+    }
+
 }
